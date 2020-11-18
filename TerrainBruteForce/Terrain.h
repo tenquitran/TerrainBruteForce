@@ -41,20 +41,20 @@ namespace TerrainBruteForceApp
 
 		std::unique_ptr<CommonLibOgl::ProgramGLSL> m_spProgram;    // GLSL program wrapper
 
-		GLuint m_vao;
-		GLuint m_vbo;
+		GLuint m_vao = {};
+		GLuint m_vbo = {};
 
-		GLuint m_index;          // index buffer
-		GLsizei m_indexCount;    // number of indices
+		GLuint m_index = {};          // index buffer
+		GLsizei m_indexCount = {};    // number of indices
 
-		GLuint m_normal;    // normal buffer
+		GLuint m_normal = {};    // normal buffer
 
 		// Minimum and maximum scaled height of the terrain.
-		GLfloat m_minHeightScaled;
-		GLfloat m_maxHeightScaled;
+		GLfloat m_minHeightScaled = {};
+		GLfloat m_maxHeightScaled = {};
 
 		// Buffer for texture presence data (one for all textures).
-		GLuint m_texturePresence;
+		GLuint m_texturePresence = {};
 
 		// Tiled textures for the terrain.
 		std::vector< std::unique_ptr<TiledTexture> > m_tiledTextures;

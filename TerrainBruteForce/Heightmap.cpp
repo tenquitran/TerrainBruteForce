@@ -10,7 +10,7 @@ using namespace TerrainBruteForceApp;
 
 
 Heightmap::Heightmap(GLfloat scaleFactor)
-	: ScaleFactor(scaleFactor), m_pData(nullptr), m_size{}, m_width{}, m_height{}
+	: ScaleFactor(scaleFactor)
 {
 }
 

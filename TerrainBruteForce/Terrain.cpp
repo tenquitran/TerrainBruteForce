@@ -10,8 +10,7 @@ using namespace TerrainBruteForceApp;
 
 
 Terrain::Terrain(GLfloat scaleFactor)
-	: m_heightmap(scaleFactor), m_vao{}, m_vbo{}, m_index{}, m_indexCount{}, m_normal{},
-	  m_minHeightScaled{}, m_maxHeightScaled{}, m_texturePresence{}
+	: m_heightmap(scaleFactor)
 {
 }
 
