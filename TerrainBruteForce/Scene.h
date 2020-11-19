@@ -37,8 +37,6 @@ namespace TerrainBruteForceApp
 		void scaleCamera(GLfloat amount);
 
 	private:
-		std::unique_ptr<CommonLibOgl::ProgramGLSL> m_spProgram;
-
 		// OpenGL camera.
 		std::unique_ptr<CommonLibOgl::Camera> m_spCamera;
 
